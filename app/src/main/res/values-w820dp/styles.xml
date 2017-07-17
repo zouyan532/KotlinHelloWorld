@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="tv_noceter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_text_black</item>
+        <item name="android:textSize">@dimen/textSize28</item>
+    </style>
+    <style name="activity_tv" parent="tv_noceter">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="personalcreter_tv" parent="activity_tv">
+        <item name="android:layout_marginLeft">@dimen/mtwallet_tv_mleft</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="personalcreter_rl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/personalceter_ll_h</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="personalcreter_iv">
+        <item name="android:layout_marginLeft">@dimen/about_m</item>
+        <item name="android:layout_width">@dimen/personalcretericon_w</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">@dimen/personalcretericon_h</item>
+    </style>
+
+    <style name="view_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/color_line</item>
+    </style>
+    <style name="view_20">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@color/color_line</item>
+    </style>
+    <style name="item_list_tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_item_list_tv</item>
+        <item name="android:textSize">@dimen/text_24px</item>
+    </style>
+    <style name="Dialog_FullScreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="themepurple">#5468c9</color>
+    <color name="colorBlack">#282828</color>
+
+    <color name="color_line">#eeeeee</color>
+    <color name="color_gray">#f9f9f9</color>
+    <color name="color_text_purple">#5468c9</color>
+    <color name="color_item_list_tv">#aaaaaa</color>
+    <color name="color_text_recharge">#666666</color>
+    <color name="color_text_black">#333333</color>
+    <color name="color_text_gray">#666666</color>
+    <color name="color_btn_commit">#7f90ea</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="color_pay">#1686ff</color>
+</resources>
