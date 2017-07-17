@@ -1,6 +1,7 @@
 package exmcollapsing.test.com.kotlinhelloworld
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,6 +20,7 @@ class TestAdapter(private val mContext: Context,
             view = LayoutInflater.from(mContext).inflate(R.layout.item_lv,null)
             holder = ViewHolder(view)
             view.tag = holder
+            Log.i("TAG","asd")
         }else{
             view = convertView;
             holder = view.tag as ViewHolder
